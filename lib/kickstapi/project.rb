@@ -4,7 +4,7 @@ module Kickstapi
   class Project
     attr_accessor :id, :name, :url, :creator, :about, 
                   :pledged, :goal, :currency, :percentage_funded, :backers, 
-                  :status, :end_date
+                  :status, :end_date, :hours_left
                   
     def to_hash
       hash = {}
